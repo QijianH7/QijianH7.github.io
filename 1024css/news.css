@@ -1,0 +1,402 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+}
+
+a.demo:before,
+a.demo:after {
+    content: '';
+    border-bottom: solid 1px rgb(200, 200, 200);
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    z-index: 1000;
+}
+
+a.demo:before {
+    left: 0;
+}
+
+a.demo:after {
+    right: 0;
+}
+
+a.demo:hover:before,
+a.demo:hover:after {
+    width: 50%;
+}
+
+a.demo:before,
+a.demo:after {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#h-1 {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 12;
+}
+
+#h-1-1 {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100px;
+}
+
+.h-1-2 {
+    padding-top: 10px;
+    height: 80px;
+    width: auto;
+}
+
+.h-1-3 {
+    padding-left: 300px;
+    padding-top: 45px;
+    display: flex;
+}
+
+.h-1-3 span {
+    font-size: 20px;
+}
+
+.h-2 {
+    padding-top: 152px;
+    width: 1250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.h-2 img {
+    width: 100%;
+    height: 300px;
+}
+
+.h-3 {
+    padding-top: 10px;
+}
+
+.h-3-1 {
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.h-3-1 img {
+    height: 50px;
+    width: 1250px;
+}
+
+.h-3-2 {
+    /* padding-top: 5px; */
+    margin: 0 auto;
+    width: 1250px;
+    display: flex;
+    justify-content: center;
+}
+
+.f-1 {
+    position: relative;
+    z-index: 122;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.f-1-1 {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+}
+
+.f-1-2 {
+    height: 150px;
+    position: absolute;
+    z-index: 0;
+    padding-top: 100px;
+}
+
+.f-1-3 {
+    position: absolute;
+    z-index: 0;
+    color: #fff;
+    padding-top: 365px;
+    font-family: "Microsoft YaHei";
+    font-size: 0.9em;
+}
+
+.f-2 {
+    background-color: #000;
+    width: 100%;
+    height: 225px;
+    display: flex;
+}
+
+.fleft {
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.fright {
+    width: 50%;
+    padding-top: 30px;
+}
+
+.f-2-1 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 100;
+
+}
+
+.f-2-2 {
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 1em;
+    letter-spacing: 1em;
+    font-weight: 100;
+}
+
+.icon {
+    padding-top: 20px;
+}
+
+.icon img {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.c-1 {
+    display: flex;
+    height: 525px;
+}
+
+.c-1-1 {
+    height: auto;
+    width: 100%;
+    z-index: 0;
+}
+
+.c-1-2 {
+    width: 25%;
+    padding-left: 200px;
+}
+
+.c-1-3 {
+    width: auto;
+    height: 300px;
+    top: 175px;
+    z-index: 1;
+    position: absolute;
+}
+
+.hr1 {
+    height: 2px;
+    border: none;
+    border-top: 1px solid rgb(200, 200, 200);
+    width: 500px;
+    z-index: -1;
+    position: relative;
+}
+
+.info {
+    height: 125px;
+    width: 500px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 355px;
+    left: 125px;
+}
+
+.infostyle {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.date {
+    font-family: 'Arial Narrow', sans-serif;
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    text-align: center;
+}
+
+.title {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.title span {
+    font-family: 'Microsoft YaHei';
+    color: #000;
+    font-size: 26px;
+    letter-spacing: 4px;
+}
+
+.next {
+    padding-top: 20px;
+    padding-left: 140px;
+}
+
+.next span {
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-family: 'Microsoft YaHei';
+    color: rgb(200, 200, 200)
+}
+
+.c-2 {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(25, 25, 25);
+}
+
+.c-2-1 {
+    position: absolute;
+    top: 80px;
+    left: 125px;
+}
+
+.hr2 {
+    height: 1px;
+    border: none;
+    border-top: 2px solid #fff;
+    width: 350px;
+    z-index: 1;
+    position: relative;
+}
+
+.c-2-2 {
+    padding-top: 190px;
+    padding-left: 100px;
+}
+
+.info2 {
+    height: 300px;
+    width: 1000px;
+    position: absolute;
+    z-index: 2;
+    left: 115px;
+    top: 265px;
+}
+
+.info2 span {
+    color: #fff;
+}
+
+.title2 {
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.title2 span {
+    font-family: 'Microsoft YaHei';
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 4px;
+}
+
+.next2 {
+    padding-top: 30px;
+    padding-left: 250px;
+}
+
+.next2 span {
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-family: 'Microsoft YaHei';
+}
+
+.next img {
+    vertical-align: middle;
+}
+
+.next2 img {
+    vertical-align: middle;
+}
+
+.next3 img {
+    vertical-align: middle;
+}
+
+.next3 {
+    padding-top: 30px;
+    padding-left: 250px;
+}
+
+.next3 span {
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-family: 'Microsoft YaHei';
+}
+
+.c-2-3 {
+    position: absolute;
+    left: 550px;
+    top: 125px;
+}
+
+.c-2-3 img {
+    width: 400px;
+}
+
+.c-3 {
+    width: 100%;
+    height: 450px;
+}
+
+.info3 {
+    height: 300px;
+    width: 1000px;
+    position: absolute;
+    z-index: 2;
+    left: 115px;
+    top: 265px;
+}
+
+.info3 span {
+    color: #000;
+}
+
+.c-f {
+    padding-top: 20px;
+}
+
+.hr3 {
+    padding-bottom: 50px;
+    height: 3px;
+    border: none;
+    border-top: 2px solid #000;
+    width: 1375px;
+    z-index: 1;
+    margin: 0 auto;
+}
