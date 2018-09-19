@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>扎染社区</title>
+
+
+
+    <script src="http://www.jq22.com/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js "></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" id="s2" href="1366css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" id="s1" href="1366css/index.css">
+
+
+
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1" /> -->
+
+
+
+    <script>
+        window.onload = function() {
+            if ((screen.width == 1024) && (screen.height == 768)) {
+                document.getElementById('s2').href = '1024css/jquery.fullPage.css';
+                document.getElementById('s1').href = '1024css/index.css';
+            } else if ((screen.width == 1366) && (screen.height == 768)) {
+                document.getElementById('s2').href = '1366css/jquery.fullPage.css';
+                document.getElementById('s1').href = '1366css/index.css';
+            } else {
+                document.getElementById('s2').href = '1920css/jquery.fullPage.css';
+                document.getElementById('s1').href = '1920css/index.css';
+            }
+        }
+    </script>
+
+
+    <script>
+        $(function() {
+            if ($.browser.msie && $.browser.version < 6) {
+                $('body').addClass('ltie10');
+            }
+            $.fn.fullpage({
+                verticalCentered: false,
+                anchors: ['page1', 'page2', 'page3', 'page4'],
+                navigation: true,
+                navigationTooltips: ['主页', '制作工艺', '社区', '联系我们']
+            });
+        });
+    </script>
+
+
+
+</head>
+
+<body>
+
+    <div class="section section1">
+        <!-- <div class="header">
+            <div id="h-1">
+                <img id="h-1-1" src="img2/banner.png" />
+                <a href="index.html#page1"><img class="h-1-2" src="img2/logo.png"></a>
+                <div class="h-1-3">
+                    <div class="link-1">
+                        <a href="index.html#page1" class="demo">
+                            <span class="thin">首页</span>
+                        </a>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="link-1">
+                        <a href="news.html" class="demo">
+                            <span class="thin">社区</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <img src="img/toptop.png" class="toptop"> -->
+
+
+
+        <div class="header">
+
+            <div id="h-1">
+
+                <span class="h-1-1">「 扎 布 染 衣 」</span>
+                <img src="img/logo.png" class="h-1-2" />
+                <span class="h-1-3">希望通过我们的努力，能让美丽的文化绵延下去</span>
+
+            </div>
+
+            <img src="index/main.png" class="banner">
+
+
+        </div>
+    </div>
+
+
+
+    <div class="section section2">
+
+
+        <div class="c-1">
+            <h2 class="title-text"><span>制作工艺</span></h2>
+        </div>
+
+        <div class="c-2">
+            <span>勿忘传统工艺，这一切美好都来自于那些很久很久以前智慧的劳动人民</span>
+        </div>
+
+        <div class="c-3">
+
+            <div class="c-3-1">
+                <a href="learn1.html"><img src="index/learn_1.jpg" width="100%" height="auto" /></a>
+                <div style="padding-top: 20px;"></div>
+                <span>好的作品从缜密的准备工作开始！在这里，我们会了解到所需材料，以及一些基本知识</span>
+            </div>
+
+            <div class="c-3-1">
+                <a href="learn2.html"><img src="index/learn_2.jpg" width="100%" height="auto" /></a>
+                <div style="padding-top: 20px;"></div>
+                <span>让人兴奋的扎染在这里！在这里，我们会了解到一些基本的扎染手法</span>
+            </div>
+
+            <div class="c-3-1">
+                <a href="learn3.html"><img src="index/learn_3.jpg" width="100%" height="auto" /></a>
+                <div style="padding-top: 20px;"></div>
+                <span>扎染可以变得很不一样！在这里，我们可以了解到与众不同的扎染玩法</span>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="section section3">
+
+
+
+        <div class="c-1">
+            <h2 class="title-text"><span>社区</span></h2>
+        </div>
+
+        <div class="c-2">
+            <span>世界上有那么一群热爱生活的人儿，钟情于用自己的双手创造属于自己的美好</span>
+        </div>
+
+        <div class="c-4">
+            <table border="0" style="border-collapse:separate; border-spacing:20px 10px;">
+                <tr>
+                    <td rowspan="2">
+                        <a href="blog1.html">
+                            <div class="bottom-opacity">
+                                <img src="index/article_1.png" />
+                                <div class="bottom">
+                                    <p class="bbb">时尚界的扎染</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="blog6.html">
+                            <div class="bottom-opacity">
+                                <img src="index/article_2.png" />
+                                <div class="bottom">
+                                    <p class="bbb">欣赏扎染作品</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="blog2.html">
+                            <div class="bottom-opacity">
+                                <img src="index/article_3.png" />
+                                <div class="bottom">
+                                    <p>探索扎染文化</p>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <a href="news.html">
+            <div class="gonext">
+                <img src="index/next.png" height="20px" width="auto">
+                <span> 更 多 想 法</span>
+            </div>
+        </a>
+    </div>
+
+
+
+
+
+    <div class="section section4">
+        <!-- <div style="padding-top: 115px"></div>
+            <div class="f-1">
+                <div style="height: 25px;"> </div>
+                <span>分 享 我 们</span>
+                <div style="height: 25px;"> </div>
+                <div class="icon">
+                    <a href="#"><img src="img/u44.png"></a>
+                    <a href="#"><img src="img/u46.png"></a>
+                    <a href="#"><img src="img/u48.png"></a>
+                    <a href="#"><img src="img/u50.png"></a>
+                </div>
+            </div>
+            <div style="padding-top: 10px"></div>
+            <div class="f-2">
+                <div style="height: 100px;"> </div>
+                <a href="#">
+                    <p>关 于 我 们</p>
+                </a>
+                <div style="height: 30px;"> </div>
+                <a href="#">
+                    <p>加 入 我 们</p>
+                </a>
+                <div style="height: 30px;"> </div>
+                <a href="#">
+                    <p>联 系 合 作</p>
+                </a>
+                <div style="height: 30px;"> </div>
+                <a href="#">
+                    <p>反 馈 建 议</p>
+                </a>
+
+
+            </div> -->
+
+
+        <div>
+            <div class="f-1">
+                <img class="f-1-1" src="img/footer img.png" />
+                <img class="f-1-2" src="img/footer white.png" />
+                <p class="f-1-3"> ALL DESIGN FOR YOU</p>
+            </div>
+        </div>
+
+        <div style="padding-top:5px;"></div>
+
+        <div class="f-2">
+            <div class="fleft">
+                <div>
+                    <span class="f-2-1">「 扎 布 染 衣 」</span>
+                </div>
+
+                <div class="fff">
+                    <a href="index.html">
+                        <p class="f-2-2">首页</p>
+                    </a>
+                    <a href=# onClick="javascript:alert('官方联系方式正在搭建，敬请期待！');">
+                        <p class="f-2-2">联系我们</p>
+                    </a>
+                    <a href="#" onClick="javascript:alert('我们致力于扩大扎染文化的影响力，希望为扎染的进一步发展作出一定的贡献');">
+                        <p class="f-2-2">关于我们</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
